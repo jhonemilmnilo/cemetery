@@ -45,9 +45,12 @@ export default function Home() {
             <Link href="#search" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Search</Link>
             <Link href="#about" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">About</Link>
           </div>
-          <button className="rounded-full bg-foreground px-5 py-2 text-sm font-medium text-background transition-all hover:opacity-90 active:scale-95">
+          <Link
+            href="/register"
+            className="rounded-full bg-foreground px-5 py-2 text-sm font-medium text-background transition-all hover:opacity-90 active:scale-95"
+          >
             Get Started
-          </button>
+          </Link>
         </div>
       </nav>
 
@@ -186,9 +189,12 @@ export default function Home() {
               Join thousands of families finding comfort and connection through our digital memorial platform.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <button className="h-12 rounded-full bg-white px-8 font-medium text-black transition-transform hover:scale-105 active:scale-95">
+              <Link
+                href="/register"
+                className="flex h-12 items-center justify-center rounded-full bg-white px-8 font-medium text-black transition-transform hover:scale-105 active:scale-95"
+              >
                 Register a Plot
-              </button>
+              </Link>
               <button className="h-12 rounded-full border border-zinc-800 px-8 font-medium text-white transition-colors hover:bg-zinc-900 active:scale-95">
                 Contact Our Team
               </button>
