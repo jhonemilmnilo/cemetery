@@ -4,6 +4,12 @@
   --font-sans: "Inter", system-ui, sans-serif;
   --color-primary: #101010;
   --color-accent: #6d6d6d;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
 }
 
 :root {
